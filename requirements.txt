@@ -1,4 +1,4 @@
 streamlit
 pip
 yfinance
-gatherUsageStats = false
+gatherUsageStats == false
