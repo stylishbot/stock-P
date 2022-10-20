@@ -1,4 +1,4 @@
 streamlit
 pip == 22.3
-yfinance
+yfinance == 0.1.70
 altair
