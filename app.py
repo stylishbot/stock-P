@@ -27,6 +27,7 @@ def get_data(days, tickers):
         tkr = yf.Ticker(tickers[company])
         hist = tkr.history(period=f'{days}d')
         hist = hist[['Close']]
+        hist.index=hist.index.strftime('%d %B %Y')
         hist.columns = [company]
         hist = hist.T
         hist.index.name = 'Name'
