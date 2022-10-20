@@ -1,5 +1,4 @@
 streamlit
-pip == 22.3
+pip 
 yfinance
 altair
-browser.gatherUsageStats 
