@@ -1,3 +1,4 @@
-streamlit == 1.13.0
-pip == 22.3
-yfinance == 0.1.79
+pandas==1.1.5
+plotly==5.3.1
+scipy==1.5.2
+streamlit==1.1.0
