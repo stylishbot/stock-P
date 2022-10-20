@@ -1,4 +1,3 @@
 streamlit
-pip
+pip == 22.3
 yfinance
-gatherUsageStats == false
